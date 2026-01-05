@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hydeout Entertainment</title>
+  <meta name="description" content="Hydeout Entertainment — streaming, shows, YouTube, and branded content." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand"><span class="mark"></span><span>Hydeout Group</span></div>
+      <nav class="links">
+        <a href="index.html">Group</a>
+        <a href="studios.html">Studios</a>
+        <a href="productions.html">Production</a>
+        <a class="active" href="entertainment.html">Entertainment</a>
+        <a href="records.html">Records</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Streaming • Shows • Culture</div>
+      <div class="logoTitle">HYDEOUT</div>
+      <div class="logoSub">ENTERTAINMENT</div>
+      <p class="lead">
+        We develop and produce content that keeps attention — shows, series, and platform-ready formats for YouTube and streaming.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary" href="index.html#contact">Pitch a show / project</a>
+        <a class="btn ghostCyan" href="#formats">Formats</a>
+      </div>
+
+      <div class="grid" id="formats">
+        <div class="card two">
+          <h3>YouTube shows</h3>
+          <p class="muted">Studio-based formats built for consistency and growth.</p>
+        </div>
+        <div class="card two">
+          <h3>Branded content</h3>
+          <p class="muted">Partner content that looks premium and performs.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Hydeout Entertainment (Hydeout Group).
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hydeout Records</title>
+  <meta name="description" content="Hydeout Records — an independent label for releases and artist development." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand"><span class="mark"></span><span>Hydeout Group</span></div>
+      <nav class="links">
+        <a href="index.html">Group</a>
+        <a href="studios.html">Studios</a>
+        <a href="productions.html">Production</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a class="active" href="records.html">Records</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Releases • Artists • Culture</div>
+      <div class="logoTitle">HYDEOUT</div>
+      <div class="logoSub">RECORDS</div>
+      <p class="lead">
+        Independent label energy with professional delivery — releases, creative direction, and development around the artist.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary" href="index.html#contact">Submit / Enquire</a>
+        <a class="btn ghostPink" href="#offers">What we offer</a>
+      </div>
+
+      <div class="grid" id="offers">
+        <div class="card three">
+          <h3>Release support</h3>
+          <p class="muted">Planning, packaging and rollout basics.</p>
+        </div>
+        <div class="card three">
+          <h3>Creative direction</h3>
+          <p class="muted">Visual + audio aligned to a clear identity.</p>
+        </div>
+        <div class="card three">
+          <h3>Studio access</h3>
+          <p class="muted">Fast access to sessions, engineers and production.</p>
+        </div>
+        <div class="card three">
+          <h3>Content support</h3>
+          <p class="muted">Content built for attention and consistency.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Hydeout Records (Hydeout Group).
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

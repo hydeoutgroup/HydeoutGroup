@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hydeout Group</title>
+  <meta name="description" content="Hydeout Group — a creative ecosystem spanning studios, production, entertainment, and records." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand"><span class="mark"></span><span>Hydeout Group</span></div>
+      <nav class="links">
+        <a class="active" href="index.html">Group</a>
+        <a href="studios.html">Studios</a>
+        <a href="productions.html">Production</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="records.html">Records</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Audio • Video • Entertainment • Records</div>
+      <div class="logoTitle">HYDEOUT</div>
+      <div class="logoSub">GROUP</div>
+      <p class="lead">
+        Hydeout Group is the umbrella for Hydeout Studios, Hydeout Production, Hydeout Entertainment, and Hydeout Records —
+        built for creators, artists, and brands who want quality work and a real home for ideas.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary" href="#contact">Start a project</a>
+        <a class="btn ghostCyan" href="studios.html">Book studios & spaces</a>
+        <a class="btn ghostPink" href="#companies">Explore companies</a>
+      </div>
+
+      <div class="grid" id="companies">
+        <div class="card three">
+          <h3>Hydeout Studios</h3>
+          <p class="muted">Recording rooms, podcast setup, equipment, and the white cyclorama wall.</p>
+          <div class="cta"><a class="btn ghostCyan" href="studios.html">View Studios</a></div>
+        </div>
+        <div class="card three">
+          <h3>Hydeout Production</h3>
+          <p class="muted">Video production, studio shoots, edits, and set support.</p>
+          <div class="cta"><a class="btn" href="productions.html">View Production</a></div>
+        </div>
+        <div class="card three">
+          <h3>Hydeout Entertainment</h3>
+          <p class="muted">Streaming, YouTube shows, branded content and entertainment services.</p>
+          <div class="cta"><a class="btn" href="entertainment.html">View Entertainment</a></div>
+        </div>
+        <div class="card three">
+          <h3>Hydeout Records</h3>
+          <p class="muted">Record label for releases, artist development and culture.</p>
+          <div class="cta"><a class="btn ghostPink" href="records.html">View Records</a></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="card two">
+          <h3>Production ecosystem</h3>
+          <p class="muted">Spaces + people + process. From pre-production to delivery-ready outputs.</p>
+          <span class="pill">Quality-first</span>
+          <span class="pill">Creator-friendly</span>
+          <span class="pill">Built to scale</span>
+        </div>
+        <div class="card two">
+          <h3>Services</h3>
+          <p class="muted">Audio sessions • Mixing & mastering • Podcast production • Video shoots • Content creation • Shows</p>
+          <span class="pill">Audio</span>
+          <span class="pill">Video</span>
+          <span class="pill">Entertainment</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact / Enquiries</h2>
+      <div class="grid">
+        <div class="card two">
+          <h3>Send an enquiry</h3>
+          <p class="muted">This form is ready. To make it deliver messages, connect it to Formspree (free) or your platform form tool.</p>
+
+          <!-- Replace ACTION with your Formspree endpoint later: https://formspree.io/f/xxxxxxx -->
+          <form method="POST" action="">
+            <input name="name" placeholder="Your name" required />
+            <input name="email" type="email" placeholder="Your email" required />
+            <select name="type">
+              <option>Studio booking</option>
+              <option>Audio project</option>
+              <option>Video project</option>
+              <option>Entertainment / Show</option>
+              <option>Label / Records</option>
+              <option>Other</option>
+            </select>
+            <textarea name="message" placeholder="Tell us what you need…"></textarea>
+            <button class="btn primary" type="submit">Send enquiry</button>
+            <small>Tip: if you want, I’ll wire this to Formspree in 60 seconds once you choose an email.</small>
+          </form>
+        </div>
+
+        <div class="card two">
+          <h3>Social</h3>
+          <p class="muted">
+            Instagram:<br/>
+            • @hydeoutstudios<br/>
+            • @hydeout.production<br/>
+            • @hydeoutrecords<br/>
+            • @hydeoutentertainment
+          </p>
+          <div class="divider"></div>
+          <p class="muted" style="margin-top:14px">
+            Want bookings next? We can connect your booking system and add a “Book Now” flow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Hydeout Group.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

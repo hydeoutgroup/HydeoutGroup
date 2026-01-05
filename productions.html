@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hydeout Production</title>
+  <meta name="description" content="Hydeout Production — video production, studio shoots, edits, and set support." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand"><span class="mark"></span><span>Hydeout Group</span></div>
+      <nav class="links">
+        <a href="index.html">Group</a>
+        <a href="studios.html">Studios</a>
+        <a class="active" href="productions.html">Production</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="records.html">Records</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Video • Shoots • Edits • Sets</div>
+      <div class="logoTitle">HYDEOUT</div>
+      <div class="logoSub">PRODUCTION</div>
+      <p class="lead">
+        Visual storytelling from concept to delivery — studio shoots, location work, edits, and content built to perform online.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary" href="index.html#contact">Start a video project</a>
+        <a class="btn ghostPink" href="#services">Services</a>
+      </div>
+
+      <div class="grid" id="services">
+        <div class="card three">
+          <h3>Music videos</h3>
+          <p class="muted">Concept, shoot, edit — clean visuals with a strong look.</p>
+        </div>
+        <div class="card three">
+          <h3>Studio shoots</h3>
+          <p class="muted">Fast setups, controlled lighting, repeatable quality.</p>
+        </div>
+        <div class="card three">
+          <h3>Content creation</h3>
+          <p class="muted">Short-form & long-form content for socials and platforms.</p>
+        </div>
+        <div class="card three">
+          <h3>Set support</h3>
+          <p class="muted">Props, styling, and scene build where needed.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Hydeout Production (Hydeout Group).
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

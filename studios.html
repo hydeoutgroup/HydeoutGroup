@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hydeout Studios</title>
+  <meta name="description" content="Hydeout Studios — recording rooms, podcast facilities, and white cyclorama wall." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand"><span class="mark"></span><span>Hydeout Group</span></div>
+      <nav class="links">
+        <a href="index.html">Group</a>
+        <a class="active" href="studios.html">Studios</a>
+        <a href="productions.html">Production</a>
+        <a href="entertainment.html">Entertainment</a>
+        <a href="records.html">Records</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Recording • Podcast • Cyclorama</div>
+      <div class="logoTitle">HYDEOUT</div>
+      <div class="logoSub">STUDIOS</div>
+      <p class="lead">
+        Book studios, engineers, and creative spaces built for serious sessions — whether you’re recording,
+        producing, mixing, or shooting content.
+      </p>
+
+      <div class="cta">
+        <a class="btn primary" href="index.html#contact">Enquire / Book</a>
+        <a class="btn ghostCyan" href="#pricing">View pricing</a>
+      </div>
+
+      <div class="grid" id="pricing">
+        <div class="card three">
+          <h3>Studio A</h3>
+          <p class="muted">Ideal for recording + full sessions.</p>
+          <span class="pill">Room: £20 / hour</span>
+        </div>
+        <div class="card three">
+          <h3>Studio B</h3>
+          <p class="muted">Smaller room — focused sessions.</p>
+          <span class="pill">Room: £15 / hour</span>
+        </div>
+        <div class="card three">
+          <h3>Studio C</h3>
+          <p class="muted">Recording, production & creative work.</p>
+          <span class="pill">Room: £20 / hour</span>
+        </div>
+        <div class="card three">
+          <h3>Engineers</h3>
+          <p class="muted">Recording, mixing & mastering support.</p>
+          <span class="pill">£20 / hour</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Spaces & facilities</h2>
+      <div class="grid">
+        <div class="card two">
+          <h3>Podcast setup</h3>
+          <p class="muted">Clean audio capture, pro mics, and a comfortable environment for long sessions.</p>
+        </div>
+        <div class="card two">
+          <h3>White cyclorama wall</h3>
+          <p class="muted">Perfect for clean visuals, product shots, interviews and music content.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Hydeout Studios (Hydeout Group).
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
